@@ -1,16 +1,26 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Text;
 
 namespace Battleship
 {
     public class Attack
     {
-        public int[,] HitPosition { get; set; }
-
-        public void HitOrMiss(Ship ship)
+        public Point HitPosition { get; set; }
+        public Attack(string hitPosition)
         {
-            if (HitPosition == ship.Position)
-                Console.WriteLine("Hit");
-            else Console.WriteLine("Miss");
+            HitPosition = GetHitPosition(hitPosition);
+        }
+        private Point GetHitPosition(string hitPosition)
+        {
+            string[] HitPoints = hitPosition.Split(',');
+            int coordinateX = int.Parse(HitPoints[0]);
+            int coordinateY = int.Parse(HitPoints[1]);
+            return new Point(coordinateX, coordinateY);
+
         }
     }
 }
+        
+

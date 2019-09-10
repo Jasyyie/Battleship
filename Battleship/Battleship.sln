@@ -1,18 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
-MinimumVisualStudioVersion = 15.0.26124.0
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Battleship", "Battleship.csproj", "{C8A15FEC-E9CE-4EB6-897C-221A9C8D212D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8A15FEC-E9CE-4EB6-897C-221A9C8D212D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A15FEC-E9CE-4EB6-897C-221A9C8D212D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A15FEC-E9CE-4EB6-897C-221A9C8D212D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A15FEC-E9CE-4EB6-897C-221A9C8D212D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DEE29A0-5FE2-40E7-9889-477A3E7F2AE6}
 	EndGlobalSection
 EndGlobal
