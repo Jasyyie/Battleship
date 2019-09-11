@@ -22,7 +22,7 @@ The project is structure to enable extensibility and ease of development. The st
 - Stores ship orientation as enum vertical and Horizontal 
 
 
-#### Program.cs 
+#### Program
 
 - Places the ship on Board by setting up board coordinates on which ship is placed to value 9.
 - Evaluate Hit or Miss by setting up board to -1 if the hit is sucessfull and setting up board coordinates to 1 if it is a fail.
@@ -38,4 +38,4 @@ The project is structure to enable extensibility and ease of development. The st
 - For already provided hit coordinates it return "Coordiantes Already hit" same for miss.
 - 
 #### BattleshipTest.csproj
--ShipParametersTest() tests for GetStartingPoint, GetOrientation, GetOrientation methods in Ship.
+- ShipParametersTest() tests for GetStartingPoint, GetOrientation, GetOrientation methods in Ship.
