@@ -19,4 +19,3 @@ L:\JasmineGithub\Battleship\Battleship\obj\Debug\netcoreapp2.2\Battleship.Assemb
 L:\JasmineGithub\Battleship\Battleship\obj\Debug\netcoreapp2.2\Battleship.AssemblyInfo.cs
 L:\JasmineGithub\Battleship\Battleship\obj\Debug\netcoreapp2.2\Battleship.dll
 L:\JasmineGithub\Battleship\Battleship\obj\Debug\netcoreapp2.2\Battleship.pdb
-L:\JasmineGithub\Battleship\Battleship\obj\Debug\netcoreapp2.2\Battleship.csprojAssemblyReference.cache

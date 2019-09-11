@@ -24,25 +24,17 @@ namespace Battleship
                 bool hitormiss = HitOrMiss(board, attack);
                 var result = HitorMissReturn(hitormiss);
                 Console.WriteLine(result);
-                //if (board[attack.HitPosition.X, attack.HitPosition.Y] != 9)
-                //{
-                //    Console.WriteLine("You won the game");
-                //}
-                //else
-                //{
-                //    Console.WriteLine("You lose the game");
-                //}
-
+               
             }
         }
-        private static void PlaceTheShip(int[,] board, Ship ship)
+        public static void PlaceTheShip(int[,] board, Ship ship)
         {
             for (int i = 0; i < ship.Position.Length; i++)
             {
                 board[ship.Position[i].X, ship.Position[i].Y] = 9;
             }
         }
-        private static bool HitOrMiss(int[,] board, Attack attack)
+        public static bool HitOrMiss(int[,] board, Attack attack)
         {
             if (board[attack.HitPosition.X, attack.HitPosition.Y] == -1)
             {
@@ -66,7 +58,7 @@ namespace Battleship
                 return false;
             }
         }
-        private static string HitorMissReturn(bool hitormiss)
+        public static string HitorMissReturn(bool hitormiss)
         {
           
             if (hitormiss == true)
