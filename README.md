@@ -36,6 +36,7 @@ The project is structure to enable extensibility and ease of development. The st
 - Places the ship on the Board for ship postion[0,0] and ship position [0,1] it gives it value 9. ship position coordinates will have 9 value on board.
 - If Ship is placed on given hit coordinates it will return Hit else miss.
 - For already provided hit coordinates it return "Coordiantes Already hit" same for miss.
-- 
+![Battleship](https://user-images.githubusercontent.com/49047008/64665310-6c145c00-d495-11e9-95a7-2d26a730a501.PNG)
+
 #### BattleshipTest.csproj
 - ShipParametersTest() tests for GetStartingPoint, GetOrientation, GetOrientation methods in Ship.
