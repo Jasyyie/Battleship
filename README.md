@@ -1,7 +1,7 @@
+  ![Battleship](https://user-images.githubusercontent.com/49047008/64665852-7172a600-d497-11e9-9f2a-38b9bc5d603a.png?width=20&height=20) 
+
 # Battleship
-
- Technical challenge
-
+Technical challenge 
 ### Structure
 
 The project is structure to enable extensibility and ease of development. The structure is as follows:
