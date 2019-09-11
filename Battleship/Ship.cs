@@ -11,6 +11,9 @@ namespace Battleship
        
         public int Length { get; set; }
 
+        /// <summary>
+        /// Returns starting position of ship, orientation, length
+        /// </summary>
         public Ship(string startingpoint, string orientation, string length)
         {
            Startingpoint = GetStartingPoint(startingpoint);
@@ -18,13 +21,17 @@ namespace Battleship
            Length = GetLength(length);
            Position = SetPosition(Startingpoint, Orientation, Length);
         }
-        
+        /// <summary>
+        /// Handle sort request service
+        /// </summary>
         public Point GetPoint(int xCoordinate, int yCoordinate)
         {
             Point point1 = new Point(xCoordinate, yCoordinate);
             return point1;
         }
-
+        /// <summary>
+        /// Returns starting point as Point
+        /// </summary>
         private Point GetStartingPoint(string startingPoint)
         {
             string[] startingPoints = startingPoint.Split(',');
@@ -33,7 +40,9 @@ namespace Battleship
             return new Point( coordinateX, coordinateY);
 
         }
-
+        /// <summary>
+        /// Return ShipOrientation.Horizontal or ShipOrientation.Vertical
+        /// </summary>
         private ShipOrientation GetOrientation(string orientation)
         {
             if (orientation.Equals("Vertical"))
@@ -46,6 +55,9 @@ namespace Battleship
             return Convert.ToInt32(length);
             
         }
+        /// <summary>
+        ///Setup postion of ship
+        /// </summary>
         private Point[] SetPosition(Point Startingpoint, ShipOrientation Orientation, int Length)
         {
 

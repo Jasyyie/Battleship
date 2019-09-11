@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Text;
+﻿using System.Drawing;
 
 namespace Battleship
 {
@@ -12,6 +9,10 @@ namespace Battleship
         {
             HitPosition = GetHitPosition(hitPosition);
         }
+
+        /// <summary>
+        /// Handle sort request service
+        /// </summary>
         private Point GetHitPosition(string hitPosition)
         {
             string[] HitPoints = hitPosition.Split(',');
