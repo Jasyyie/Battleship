@@ -37,9 +37,5 @@ The project is structure to enable extensibility and ease of development. The st
 - If Ship is placed on given hit coordinates it will return Hit else miss.
 - For already provided hit coordinates it return "Coordiantes Already hit" same for miss.
 - 
-#### wooliesx.test
-
-- NSubstitute tests the serice and controller layer.
-- Substitute.ForPartsOf service class to create instance of service class.
-- Substitute.For serviceInterface to returned mocked interface.
-- Testing HTTPCLient by mocking HttpMessageHandler.
+#### BattleshipTest.csproj
+-ShipParametersTest() tests for GetStartingPoint, GetOrientation, GetOrientation methods in Ship.
